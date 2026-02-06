@@ -1,0 +1,61 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1087172201	StartEngine			\Default Work Unit\StartEngine	
+	3660193989	PlayImpact			\Default Work Unit\PlayImpact	
+	3762828835	StopEngine			\Default Work Unit\StopEngine	
+	3978661788	PlayLanding			\Default Work Unit\PlayLanding	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1011689332	ImpactSurface			\Default Work Unit\ImpactSurface	
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	744619566	Solid	ImpactSurface			
+	803837735	Sand	ImpactSurface			
+	803837735	Sand	Surface			
+	1050421051	Air	Surface			
+	2528658256	Ground	Surface			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3059984139	Tunnel			\Default Work Unit\Tunnel	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Tunnel			
+	2452206122	False	Tunnel			
+	3053630529	True	Tunnel			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	640949982	Speed			\Default Work Unit\Speed	
+	3257506471	Impact			\Default Work Unit\Impact	
+	3538886730	Strain			\Default Work Unit\Strain	
+	3677180323	Health			\Default Work Unit\Health	
+
+Effect plug-ins	ID	Name	Type				Notes
+	128332450	Parametric EQ (Custom)	Wwise Parametric EQ			
+	522609393	Tremolo (Custom)	Wwise Tremolo			
+	567664978	Parametric EQ (Custom)	Wwise Parametric EQ			
+	700920711	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	729482754	Parametric EQ (Custom)	Wwise Parametric EQ			
+	733270226	Parametric EQ (Custom)	Wwise Parametric EQ			
+	1025932690	Octave_Down (Custom)	Wwise Pitch Shifter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16258711	TiresLandTwo	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\0A\{0AC2C5B8-8398-A233-6972-1DE1BBEC590D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\TiresLandTwo		96096
+	37461038	TiresGround	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\19\{1917D60B-E885-2E8A-12E9-F75BD266F58E}.wem		\Interactive Music Hierarchy\Default Work Unit\Tires\Ground\Ground\TiresGround		768096
+	64039454	SandImpactOne	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\48\{482EB83A-2119-1934-A8B6-4664B2F7FC32}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\ImpactSurface\SandImpact\SandImpactOne		88296
+	64594252	TiresSand	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\A0\{A05831EA-3483-2F86-0A6F-B96421FE76AD}.wem		\Interactive Music Hierarchy\Default Work Unit\Tires\Sand\Sand\TiresSand		768096
+	126960009	CarImpactTwo	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\D3\{D35688A7-4859-981D-32C9-80D70064DA99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\CarImpact\CarImpactTwo		192096
+	166082466	SandImpactThree	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\42\{42B4B8E8-6CBD-70AF-47C3-F92D4F64D970}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\ImpactSurface\SandImpact\SandImpactThree		96096
+	179763188	CarImpactThree	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\4E\{4E99DCE3-6571-9DA1-DBCF-8540B12116AF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\CarImpact\CarImpactThree		192096
+	271916235	TiresLandOne	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\51\{5102C4E8-5C09-182D-56E2-8D8F499D1B29}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\TiresLandOne		96096
+	278729865	ImpactOne	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\C6\{C6C77A2F-233D-F712-F023-D351AF86D87D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\ImpactSurface\SolidImpact\ImpactOne		96096
+	320150166	TiresLandThree	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\29\{2971AE67-4448-F040-0AE4-90263745010A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\TiresLandThree		96096
+	351506339	SandImpactTwo	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\15\{15E784D0-F7FC-88BA-5610-288BAE624703}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\ImpactSurface\SandImpact\SandImpactTwo		96096
+	474247565	TiresAir	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\5F\{5FFFF135-5B57-9DB7-6D4B-085F936D6EE0}.wem		\Interactive Music Hierarchy\Default Work Unit\Tires\Air\Air\TiresAir		768096
+	513508949	EngineLoop	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\7E\{7E071BC9-DE19-76C0-77CA-596CF9F4B921}.wem		\Interactive Music Hierarchy\Default Work Unit\Engine\EngineLoop\EngineLoop		768096
+	565833336	EngineGearLoop	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\4A\{4A779A32-633A-41B1-D83C-CB8984BFCAEE}.wem		\Interactive Music Hierarchy\Default Work Unit\Engine\EngineLoop\EngineGearLoop		768096
+	693585875	TiresGround	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\E1\{E1ABA399-F112-A258-D108-FF39BB71C4ED}.wem		\Interactive Music Hierarchy\Default Work Unit\Tires\Ground\Ground\TiresGround		768096
+	761232062	TiresSand	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\EF\{EFC2B1C5-C165-2A8C-F95D-7905087C42BC}.wem		\Interactive Music Hierarchy\Default Work Unit\Tires\Sand\Sand\TiresSand		768096
+	897103907	CarImpactOne	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\9C\{9CF61298-CC30-CC67-F0C9-A472654987B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\CarImpact\CarImpactOne		192096
+	902874112	ImpactTwo	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\EA\{EAAFFF79-1788-E333-D337-55EA8D87D929}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\ImpactSurface\SolidImpact\ImpactTwo		96096
+	1020493958	ImpactThree	C:\Users\Student\Documents\School\Final Year\Implementing audio\Racing Demo\RacingDemo\RacingDemo_WwiseProject\.cache\B4\{B463DE94-B71C-6CF7-95F9-544E7B7D968A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\ImpactSurface\SolidImpact\ImpactThree		96096
+

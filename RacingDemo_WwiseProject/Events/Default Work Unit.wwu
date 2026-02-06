@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{993EE629-52E1-44F1-A577-7BB28C4FE103}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{993EE629-52E1-44F1-A577-7BB28C4FE103}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="StartEngine" ID="{BD618FE7-22C9-45BA-83BD-17CEB11AF897}">
+					<ChildrenList>
+						<Action Name="" ID="{727C6350-AFD4-4EA8-80E4-C2CD94F9C6CD}" ShortID="322997123">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{C76304DE-C822-435E-AFD0-37222F3943A6}" WorkUnitID="{F55EF7F5-2FFA-4572-A160-898E64A4A424}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{256B8967-CF74-4FA1-8A7F-290E3A144D9C}" ShortID="908687266">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tires" ID="{43010867-4D8D-4A2F-82DC-ED0D6565C878}" WorkUnitID="{F55EF7F5-2FFA-4572-A160-898E64A4A424}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopEngine" ID="{98F031DB-BC6B-4E1A-B09D-DA7C2AA89243}">
+					<ChildrenList>
+						<Action Name="" ID="{CBB7A224-FB2E-4C14-9FBB-B26E39E16F84}" ShortID="644842991">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{C76304DE-C822-435E-AFD0-37222F3943A6}" WorkUnitID="{F55EF7F5-2FFA-4572-A160-898E64A4A424}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8A171616-2E1B-47D2-9596-A0EA6D4B0899}" ShortID="193017523">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tires" ID="{43010867-4D8D-4A2F-82DC-ED0D6565C878}" WorkUnitID="{F55EF7F5-2FFA-4572-A160-898E64A4A424}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayLanding" ID="{B199D702-3155-436C-8E33-22888BDEF195}">
+					<ChildrenList>
+						<Action Name="" ID="{5ACE8F4D-C7DD-4B83-969A-E6ADEA7E034E}" ShortID="421720944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Landing" ID="{C63A0BBC-F1E1-4494-B57B-2AA24B56EF68}" WorkUnitID="{358CD227-133E-4FE1-BE1A-753012191DC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayImpact" ID="{EE0C9E5B-938C-480B-9C6C-2D502E107189}">
+					<ChildrenList>
+						<Action Name="" ID="{487BAF59-D7C9-4DCD-9432-FB5EC47468BB}" ShortID="206885851">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Impact" ID="{EB2820EB-4747-4B25-8AEC-8E135DA57952}" WorkUnitID="{358CD227-133E-4FE1-BE1A-753012191DC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,227 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{6B7A604B-4A18-486B-2977-C2EA2D7E3331}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{73CC222C-F637-4C84-B993-256E2D8DE0D7}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{00075082-FB8B-40A4-A150-0657B0DA1255}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "640949982",
+      "Name": "Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Speed",
+      "GUID": "{CA1F438B-ED6C-4B96-BBEB-9AEE7253E0BC}"
+     },
+     {
+      "Id": "3257506471",
+      "Name": "Impact",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Impact",
+      "GUID": "{BA20BF52-1F92-46B6-8A74-45520EAE14CC}"
+     },
+     {
+      "Id": "3538886730",
+      "Name": "Strain",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Strain",
+      "GUID": "{C4C69E42-931D-4335-B62D-D4F3CDAB2515}"
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Health",
+      "GUID": "{73B5D47B-CFB8-4983-B4C1-2F77EC9BDCE8}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3059984139",
+      "Name": "Tunnel",
+      "ObjectPath": "\\States\\Default Work Unit\\Tunnel",
+      "GUID": "{07321CF9-6AAB-4A19-B54E-F511B40737C7}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Tunnel\\None",
+        "GUID": "{41F35349-A3F3-4EFB-9007-7107D3E70493}"
+       },
+       {
+        "Id": "2452206122",
+        "Name": "False",
+        "ObjectPath": "\\States\\Default Work Unit\\Tunnel\\False",
+        "GUID": "{2389C58E-37E6-4538-9EF9-9E0613409DE4}"
+       },
+       {
+        "Id": "3053630529",
+        "Name": "True",
+        "ObjectPath": "\\States\\Default Work Unit\\Tunnel\\True",
+        "GUID": "{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1011689332",
+      "Name": "ImpactSurface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\ImpactSurface",
+      "GUID": "{9E401E82-38A3-48D5-AEAD-1686E395CE10}",
+      "Switches": [
+       {
+        "Id": "744619566",
+        "Name": "Solid",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ImpactSurface\\Solid",
+        "GUID": "{CAC5D7F3-7605-4966-89C5-9C81B948ECF3}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ImpactSurface\\Sand",
+        "GUID": "{901C5334-3CF9-4483-B9DF-DAC69FB05E73}"
+       }
+      ]
+     },
+     {
+      "Id": "1172844112",
+      "Name": "Gear",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Gear",
+      "GUID": "{F6F4F6CD-80F8-4BAA-9438-CAAC5C6A91E2}",
+      "Switches": [
+       {
+        "Id": "670611050",
+        "Name": "Neutral",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gear\\Neutral",
+        "GUID": "{5B983389-62D9-437A-AB9D-7E9D0BED58B1}"
+       },
+       {
+        "Id": "678209053",
+        "Name": "Two",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gear\\Two",
+        "GUID": "{8EE5ADA0-809B-4B3D-BF02-943CE60370D7}"
+       },
+       {
+        "Id": "912956111",
+        "Name": "Three",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gear\\Three",
+        "GUID": "{072D19AA-95ED-4AF9-9591-A305BEA3F1D9}"
+       },
+       {
+        "Id": "1064933119",
+        "Name": "One",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gear\\One",
+        "GUID": "{6FB2ADED-35AF-4D18-BFB8-33F26F829C0F}"
+       },
+       {
+        "Id": "2611770117",
+        "Name": "Five",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gear\\Five",
+        "GUID": "{BCBBF2E6-935F-42D6-9D0E-E2469DCA6D58}"
+       },
+       {
+        "Id": "2863728729",
+        "Name": "Four",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gear\\Four",
+        "GUID": "{388D5395-9160-4C7E-968A-8391BDCAB315}"
+       },
+       {
+        "Id": "3260481321",
+        "Name": "Reverse",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Gear\\Reverse",
+        "GUID": "{440B8520-80AF-4DBE-8DFE-E36DF88A8359}"
+       }
+      ]
+     },
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{E9A8B343-54AD-49A7-BD04-B7B5982D6EF7}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Sand",
+        "GUID": "{62BF82D5-E477-4CFC-9E18-6252D632A6B9}"
+       },
+       {
+        "Id": "1050421051",
+        "Name": "Air",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Air",
+        "GUID": "{3C25E7A3-5EE3-4E6E-B085-4BDC0A4DD49A}"
+       },
+       {
+        "Id": "2528658256",
+        "Name": "Ground",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Ground",
+        "GUID": "{B972622D-471F-40A7-A064-73C4E400B618}"
+       }
+      ]
+     },
+     {
+      "Id": "1862446785",
+      "Name": "TireStatus",
+      "ObjectPath": "\\Switches\\Default Work Unit\\TireStatus",
+      "GUID": "{70B6EE98-1F2B-4F25-887B-B23453E866BC}",
+      "Switches": [
+       {
+        "Id": "2055093916",
+        "Name": "Skidding",
+        "ObjectPath": "\\Switches\\Default Work Unit\\TireStatus\\Skidding",
+        "GUID": "{B2C418A3-F5F2-4888-A527-FEBA7DE224AE}"
+       },
+       {
+        "Id": "2904797076",
+        "Name": "Stopped",
+        "ObjectPath": "\\Switches\\Default Work Unit\\TireStatus\\Stopped",
+        "GUID": "{D390F36B-2919-4A1A-A7DB-9FB91D3E2E52}"
+       },
+       {
+        "Id": "4227290872",
+        "Name": "Rolling",
+        "ObjectPath": "\\Switches\\Default Work Unit\\TireStatus\\Rolling",
+        "GUID": "{D3710BC4-632D-48D7-BE85-DD467E21BC47}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1E157125-93AB-130F-578C-4F98B5EE4911}"
+ }
+}

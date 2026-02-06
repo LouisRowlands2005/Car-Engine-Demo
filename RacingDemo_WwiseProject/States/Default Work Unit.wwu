@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F634F576-D0F7-4AD4-A04A-AE0E66E32BDC}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{F634F576-D0F7-4AD4-A04A-AE0E66E32BDC}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Tunnel" ID="{07321CF9-6AAB-4A19-B54E-F511B40737C7}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+						<State Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+						<State Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

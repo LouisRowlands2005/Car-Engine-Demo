@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AF122481-935C-47EB-95F2-DB14683670E4}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{AF122481-935C-47EB-95F2-DB14683670E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Gear" ID="{F6F4F6CD-80F8-4BAA-9438-CAAC5C6A91E2}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Reverse" ID="{440B8520-80AF-4DBE-8DFE-E36DF88A8359}"/>
+						<Switch Name="Neutral" ID="{5B983389-62D9-437A-AB9D-7E9D0BED58B1}"/>
+						<Switch Name="One" ID="{6FB2ADED-35AF-4D18-BFB8-33F26F829C0F}"/>
+						<Switch Name="Two" ID="{8EE5ADA0-809B-4B3D-BF02-943CE60370D7}"/>
+						<Switch Name="Three" ID="{072D19AA-95ED-4AF9-9591-A305BEA3F1D9}"/>
+						<Switch Name="Four" ID="{388D5395-9160-4C7E-968A-8391BDCAB315}"/>
+						<Switch Name="Five" ID="{BCBBF2E6-935F-42D6-9D0E-E2469DCA6D58}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Surface" ID="{E9A8B343-54AD-49A7-BD04-B7B5982D6EF7}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Ground" ID="{B972622D-471F-40A7-A064-73C4E400B618}"/>
+						<Switch Name="Sand" ID="{62BF82D5-E477-4CFC-9E18-6252D632A6B9}"/>
+						<Switch Name="Air" ID="{3C25E7A3-5EE3-4E6E-B085-4BDC0A4DD49A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="TireStatus" ID="{70B6EE98-1F2B-4F25-887B-B23453E866BC}">
+					<ChildrenList>
+						<Switch Name="Rolling" ID="{D3710BC4-632D-48D7-BE85-DD467E21BC47}"/>
+						<Switch Name="Skidding" ID="{B2C418A3-F5F2-4888-A527-FEBA7DE224AE}"/>
+						<Switch Name="Stopped" ID="{D390F36B-2919-4A1A-A7DB-9FB91D3E2E52}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="ImpactSurface" ID="{9E401E82-38A3-48D5-AEAD-1686E395CE10}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Solid" ID="{CAC5D7F3-7605-4966-89C5-9C81B948ECF3}"/>
+						<Switch Name="Sand" ID="{901C5334-3CF9-4483-B9DF-DAC69FB05E73}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
