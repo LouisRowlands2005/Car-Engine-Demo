@@ -1,6 +1,748 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{358CD227-133E-4FE1-BE1A-753012191DC4}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{358CD227-133E-4FE1-BE1A-753012191DC4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{358CD227-133E-4FE1-BE1A-753012191DC4}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Landing" ID="{C63A0BBC-F1E1-4494-B57B-2AA24B56EF68}" ShortID="890227467">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="TiresLandThree" ID="{52EFB192-CE3F-4C10-A2A3-75CDAC58ED24}" ShortID="993666860">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TiresLandThree" ID="{7300B6EC-A842-4CAD-B2BF-36B45FD7EF49}">
+									<Language>SFX</Language>
+									<AudioFile>TiresLandThree.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="320150166"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TiresLandThree" ID="{7300B6EC-A842-4CAD-B2BF-36B45FD7EF49}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TiresLandOne" ID="{2314E2F4-598F-41E6-932F-0A5C16578EA2}" ShortID="307709438">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TiresLandOne" ID="{9DCC56D4-1D1B-48C4-B729-1DD7831E1F70}">
+									<Language>SFX</Language>
+									<AudioFile>TiresLandOne.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="271916235"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TiresLandOne" ID="{9DCC56D4-1D1B-48C4-B729-1DD7831E1F70}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TiresLandTwo" ID="{AEEA5515-656D-4559-9462-3DAE98967876}" ShortID="7182436">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TiresLandTwo" ID="{19668874-BE3D-402E-A059-19D605C10B00}">
+									<Language>SFX</Language>
+									<AudioFile>TiresLandTwo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="16258711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TiresLandTwo" ID="{19668874-BE3D-402E-A059-19D605C10B00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Tunnel" ID="{07321CF9-6AAB-4A19-B54E-F511B40737C7}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+								<CustomState Name="" ID="{86654059-FDAD-4C32-A90F-827B2683B779}" ShortID="977384261"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+								<CustomState Name="" ID="{452DD9DB-37E3-4B23-BEB1-7D80C4C815A9}" ShortID="60588514"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+								<CustomState Name="" ID="{ED1F0CC6-78C5-45EB-BAD0-107D0FEB608B}" ShortID="582769011"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{EC5EB92A-2F14-4D92-9E98-4E618BD734BB}" ShortID="303745805">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Parametric EQ (Custom)" ID="{1827B625-1AA8-4AD0-A202-D7B992193B54}" ShortID="567664978" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<StateInfo>
+															<StatePropertyList>
+																<Property Name="GainBand1"/>
+																<Property Name="GainBand2"/>
+															</StatePropertyList>
+															<StateGroupList>
+																<StateGroupInfo>
+																	<StateGroupRef Name="Tunnel" ID="{07321CF9-6AAB-4A19-B54E-F511B40737C7}"/>
+																</StateGroupInfo>
+															</StateGroupList>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+																	<CustomState Name="" ID="{9B4969CA-2B58-400F-8E9F-E10CC148E45E}" ShortID="983572847"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+																	<CustomState Name="" ID="{3E09857A-D04B-41E4-8B58-ADE90AB51433}" ShortID="652023872">
+																		<PropertyList>
+																			<Property Name="GainBand1" Type="Real32" Value="-10"/>
+																			<Property Name="GainBand2" Type="Real32" Value="10"/>
+																		</PropertyList>
+																	</CustomState>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+																	<CustomState Name="" ID="{35883E6F-6589-498D-8D76-9282E69055B0}" ShortID="277972286"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+													<CustomState Name="" ID="{D877C811-C85B-48C8-8D65-2D638EC0160D}" ShortID="1589994"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+													<CustomState Name="" ID="{28019880-8737-4D9F-851F-5E90DD1D5E84}" ShortID="1053600302"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+													<CustomState Name="" ID="{5091F7D4-0146-46E1-93CF-4C34DA3F4DE4}" ShortID="208110122"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<BlendContainer Name="Impact" ID="{EB2820EB-4747-4B25-8AEC-8E135DA57952}" ShortID="815977726">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="CarImpact" ID="{55B4F24F-8345-450F-9520-6CF2FAB5DA42}" ShortID="738463699">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CarImpactOne" ID="{51DE5915-D90C-4BB2-A5C9-4F417ECA0D89}" ShortID="1011889587">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CarImpactOne" ID="{F6DC77FB-ECD4-420F-A2A7-25E905887081}">
+											<Language>SFX</Language>
+											<AudioFile>CarImpactOne.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="897103907"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CarImpactOne" ID="{F6DC77FB-ECD4-420F-A2A7-25E905887081}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarImpactThree" ID="{BDF09B67-E828-4892-BCF7-ECFB8FD8014D}" ShortID="98226803">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CarImpactThree" ID="{834B9306-10E0-4685-8492-73099537973A}">
+											<Language>SFX</Language>
+											<AudioFile>CarImpactThree.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="179763188"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CarImpactThree" ID="{834B9306-10E0-4685-8492-73099537973A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CarImpactTwo" ID="{B0F59A05-974A-4526-8CE9-449FF135B537}" ShortID="237952885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CarImpactTwo" ID="{0E37D554-B83D-41C4-AD48-1D6404AABEFE}">
+											<Language>SFX</Language>
+											<AudioFile>CarImpactTwo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="126960009"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CarImpactTwo" ID="{0E37D554-B83D-41C4-AD48-1D6404AABEFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="ImpactSurface" ID="{347FC860-9363-4FCA-BCCA-47B97E979FAE}" ShortID="929835629">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="ImpactSurface" ID="{9E401E82-38A3-48D5-AEAD-1686E395CE10}" WorkUnitID="{AF122481-935C-47EB-95F2-DB14683670E4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SolidImpact" ID="{536D9488-D2F1-4068-BAAB-EF490F3E15E1}" ShortID="682636317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ImpactOne" ID="{74A79497-E378-441B-91AA-45862D8F8029}" ShortID="943607699">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ImpactOne" ID="{C3FD8EE4-568C-41C9-AF98-5763D934A171}">
+													<Language>SFX</Language>
+													<AudioFile>ImpactOne.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="278729865"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ImpactOne" ID="{C3FD8EE4-568C-41C9-AF98-5763D934A171}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ImpactThree" ID="{561F505E-CAC1-4273-BE83-02DCA2FB87C3}" ShortID="920593999">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ImpactThree" ID="{086B28AF-22BA-422E-9EA6-3713E0B7B933}">
+													<Language>SFX</Language>
+													<AudioFile>ImpactThree.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1020493958"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ImpactThree" ID="{086B28AF-22BA-422E-9EA6-3713E0B7B933}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ImpactTwo" ID="{A9F5BCDE-CFDF-4165-BE10-37521A44B830}" ShortID="48606705">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ImpactTwo" ID="{85FE0B4D-7368-4500-ACFB-4FF89BB6DCC3}">
+													<Language>SFX</Language>
+													<AudioFile>ImpactTwo.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902874112"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ImpactTwo" ID="{85FE0B4D-7368-4500-ACFB-4FF89BB6DCC3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SandImpact" ID="{A0C8D2B9-90B0-4410-8BD3-04FEA1AF1407}" ShortID="358265826">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SandImpactOne" ID="{A36D5263-BA1C-4F49-ADF6-73DDE106E12F}" ShortID="481570781">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SandImpactOne" ID="{2772BD9A-B644-4C4F-9737-4CF61AF5B439}">
+													<Language>SFX</Language>
+													<AudioFile>SandImpactOne.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="64039454"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SandImpactOne" ID="{2772BD9A-B644-4C4F-9737-4CF61AF5B439}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SandImpactTwo" ID="{A799DF8E-90D9-46B3-AB94-2602748C8E10}" ShortID="443218773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SandImpactTwo" ID="{57B8053B-3F0E-429A-A70A-3296D139530F}">
+													<Language>SFX</Language>
+													<AudioFile>SandImpactTwo.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="351506339"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SandImpactTwo" ID="{57B8053B-3F0E-429A-A70A-3296D139530F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SandImpactThree" ID="{8C692043-7BF8-4E93-B07F-D2B72EFA12E4}" ShortID="871940000">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{29596412-EE4D-46DF-8B33-21FCD27CE631}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A363FFBD-9DED-4A3F-AFA4-2C6FE8735733}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SandImpactThree" ID="{AC8D1980-8B8E-48D1-885D-60A922D28BF3}">
+													<Language>SFX</Language>
+													<AudioFile>SandImpactThree.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="166082466"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SandImpactThree" ID="{AC8D1980-8B8E-48D1-885D-60A922D28BF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="SolidImpact" ID="{536D9488-D2F1-4068-BAAB-EF490F3E15E1}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SandImpact" ID="{A0C8D2B9-90B0-4410-8BD3-04FEA1AF1407}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Sand" ID="{901C5334-3CF9-4483-B9DF-DAC69FB05E73}"/>
+										<ItemList>
+											<ItemRef Name="SandImpact" ID="{A0C8D2B9-90B0-4410-8BD3-04FEA1AF1407}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Solid" ID="{CAC5D7F3-7605-4966-89C5-9C81B948ECF3}"/>
+										<ItemList>
+											<ItemRef Name="SolidImpact" ID="{536D9488-D2F1-4068-BAAB-EF490F3E15E1}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Tunnel" ID="{07321CF9-6AAB-4A19-B54E-F511B40737C7}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+								<CustomState Name="" ID="{000A22C4-B578-41F6-8CAB-67FF8749DFE2}" ShortID="633442234"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+								<CustomState Name="" ID="{02B056A0-D460-4ABC-B301-D290B7994D3F}" ShortID="852519429"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+								<CustomState Name="" ID="{D3056806-3499-4A6C-B693-7BA4C6B2B548}" ShortID="27203007"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{CC7C462C-3701-44E0-B4F4-1211CEC1828E}" ShortID="529602113">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Tremolo (Custom)" ID="{B62AF714-DE26-4CF5-B545-BC7428C38A45}" ShortID="522609393" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<PropertyList>
+															<Property Name="ModDepth" Type="Real32" Value="50"/>
+															<Property Name="ModFrequency" Type="Real32" Value="20"/>
+															<Property Name="ModWaveform" Type="int32" Value="2"/>
+														</PropertyList>
+														<ObjectLists>
+															<ObjectList Name="RTPC">
+																<Reference>
+																	<Local>
+																		<RTPC Name="" ID="{E3A12331-144E-4C6A-B6D5-601C9E073F3E}" ShortID="219859893">
+																			<PropertyList>
+																				<Property Name="PropertyName" Type="string" Value="ModFrequency"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Impact" ID="{BA20BF52-1F92-46B6-8A74-45520EAE14CC}" WorkUnitID="{88046C56-2DC1-43B4-8D2E-FD5F7454C395}"/>
+																				</Reference>
+																				<Reference Name="Curve">
+																					<Custom>
+																						<Curve Name="" ID="{890912A3-1EEC-4A97-87C5-870BF0DC9066}">
+																							<PropertyList>
+																								<Property Name="Flags" Type="int32" Value="5"/>
+																							</PropertyList>
+																							<PointList>
+																								<Point>
+																									<XPos>0</XPos>
+																									<YPos>10</YPos>
+																									<Flags>5</Flags>
+																									<SegmentShape>Log3</SegmentShape>
+																								</Point>
+																								<Point>
+																									<XPos>100</XPos>
+																									<YPos>20</YPos>
+																									<Flags>37</Flags>
+																								</Point>
+																							</PointList>
+																						</Curve>
+																					</Custom>
+																				</Reference>
+																			</ReferenceList>
+																		</RTPC>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+													<CustomState Name="" ID="{6BC90910-A7B0-4F42-A210-39EB209DE7AC}" ShortID="862538071"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+													<CustomState Name="" ID="{387FFA23-FCD3-4FB4-A9A4-6707AD1A93E0}" ShortID="48245285"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+													<CustomState Name="" ID="{B1A2AF5C-FB21-4D7B-BECF-C4FEA6B81EC2}" ShortID="956146689"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{311C9CAD-FE85-4F3B-9D48-48D3616991DC}" ShortID="721644722">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Parametric EQ (Custom)" ID="{58CC7EB9-3326-4D3B-8A36-062F5D9A9ADE}" ShortID="733270226" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<StateInfo>
+															<StatePropertyList>
+																<Property Name="GainBand1"/>
+																<Property Name="GainBand2"/>
+															</StatePropertyList>
+															<StateGroupList>
+																<StateGroupInfo>
+																	<StateGroupRef Name="Tunnel" ID="{07321CF9-6AAB-4A19-B54E-F511B40737C7}"/>
+																</StateGroupInfo>
+															</StateGroupList>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+																	<CustomState Name="" ID="{776F65F7-C3CE-4E84-AF68-2DCA0E72DBAE}" ShortID="281662691"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+																	<CustomState Name="" ID="{076EA775-0F27-4733-A491-F72C4D0F0521}" ShortID="262539507">
+																		<PropertyList>
+																			<Property Name="GainBand1" Type="Real32" Value="-10"/>
+																			<Property Name="GainBand2" Type="Real32" Value="10"/>
+																		</PropertyList>
+																	</CustomState>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+																	<CustomState Name="" ID="{C5C17E8E-73B9-4CAC-8C97-9C288457A615}" ShortID="355721586"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="False" ID="{2389C58E-37E6-4538-9EF9-9E0613409DE4}"/>
+													<CustomState Name="" ID="{F72813F7-29C9-4286-BE0F-CF28A4D2928C}" ShortID="179135940"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="True" ID="{745C1B6D-3F2A-49A4-AD1B-129894C0963B}"/>
+													<CustomState Name="" ID="{C1452FE6-5F77-421C-81D9-B4C406A712D4}" ShortID="322212495"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="None" ID="{41F35349-A3F3-4EFB-9007-7107D3E70493}"/>
+													<CustomState Name="" ID="{8D051765-A71A-46CF-9D74-2434E0BE38A3}" ShortID="843026983"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3B958043-E478-4E35-95B3-D38B4D2105C5}" ShortID="549529911">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Impact" ID="{BA20BF52-1F92-46B6-8A74-45520EAE14CC}" WorkUnitID="{88046C56-2DC1-43B4-8D2E-FD5F7454C395}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{DE765AEE-A6EE-4922-ACF1-1E7778373061}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-10</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>10</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{4103B446-5575-466D-9588-C35ADE6D4345}" ShortID="189341522">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Impact" ID="{BA20BF52-1F92-46B6-8A74-45520EAE14CC}" WorkUnitID="{88046C56-2DC1-43B4-8D2E-FD5F7454C395}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{DED1EDF8-F0ED-4281-9309-26FCDFF278E5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-10</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>10</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{581A2F18-5943-4ADB-A1D2-DF7A224D8FFD}" ShortID="649833334">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Impact" ID="{BA20BF52-1F92-46B6-8A74-45520EAE14CC}" WorkUnitID="{88046C56-2DC1-43B4-8D2E-FD5F7454C395}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{70AEF98C-3ABF-4F45-A025-0828E70C5EDE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>50</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
